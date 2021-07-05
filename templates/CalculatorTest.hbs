@@ -1,0 +1,30 @@
+import java.util.Collection;
+import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+import org.junit.internal.TextListener;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DynamicTest;
+import org.junit.jupiter.api.function.Executable;
+import org.junit.runner.JUnitCore;
+
+import static org.junit.Assert.assertEquals;
+
+public class Test{{{userCode.className}}} {
+  {{{localVars}}}
+
+  @BeforeEach
+  public void setUp() {
+    {{{setUp}}}
+  }
+
+  {{#each testCases}}
+  @Test
+  public void test{{@index}}() {
+    assertEquals({{{out}}}, {{{in}}});
+  }
+  {{/each}}
+}

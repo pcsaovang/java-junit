@@ -1,0 +1,26 @@
+{
+  "name": "junit5dynamicconsole",
+  "version": "1.0.0",
+  "description": "# Getting started",
+  "main": "test-runner.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcsaovang/java-junit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcsaovang/java-junit/issues"
+  },
+  "homepage": "https://github.com/pcsaovang/java-junit#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "handlebars": "^4.7.7"
+  }
+}
